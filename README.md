@@ -23,7 +23,7 @@ n = int(input())
 print('Result is',sum_of_numbers(n))
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/50acc657-266e-46e6-ab17-10358494e26c)
+![image](https://github.com/23013357/19CS301-Module7/blob/main/vv.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
