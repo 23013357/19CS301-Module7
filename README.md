@@ -29,7 +29,9 @@ print('Result is',sum_of_numbers(n))
  
 
 EX: 7.2 TYPES OF RECURSIONS
-### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+### Aim: To Write aPython program to display Arithmetic Progression  series by reading the difference between the numbers and limit  using  head recursion.
+
+
 ### Algorithm:
 STEP 1: Start.
 
@@ -42,15 +44,14 @@ STEP 4: Print the result.
 STEP 5: Stop.
 ### Program:
 ```
-def fun(n):
-     if (n >0):
-          fun(n - 2)
-      print(n-1, end=" ")
-x = int(input())
-if(x%2==0):
-     fun(x)
-else:
-     fun(x+1)
+def fun(n,d):
+    if (n > 0):
+        fun(n-d,d)
+        print(n, end=" ")
+ 
+d= int(input())
+n = int(input())
+fun(n,d)
 
 ```
 ### Output:
