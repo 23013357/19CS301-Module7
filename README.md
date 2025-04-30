@@ -55,7 +55,7 @@ fun(n,d)
 
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/c4d6416f-d333-49c1-9dd5-0f774cdabb03)
+![image](https://github.com/23013357/19CS301-Module7/blob/main/bb.png)
 
 ###Result: Thus, the given program is implemented and executed successfully.
  
