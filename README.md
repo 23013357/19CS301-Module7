@@ -1,6 +1,7 @@
 # 19CS301-Module7
 EX: 7.1 RECURSION
-### Aim: To Write a Python program to find the sum of square of a first n Natural Numbers using recursion
+### Aim: 
+To Write a Python program to find the sum of square of a first n Natural Numbers using recursion
 
 ### Algorithm:
 STEP 1: Start.
@@ -29,7 +30,8 @@ print('Result is',sum_of_numbers(n))
  
 
 EX: 7.2 TYPES OF RECURSIONS
-### Aim: To Write aPython program to display Arithmetic Progression  series by reading the difference between the numbers and limit  using  head recursion.
+### Aim:
+To Write aPython program to display Arithmetic Progression  series by reading the difference between the numbers and limit  using  head recursion.
 
 
 ### Algorithm:
@@ -63,7 +65,8 @@ fun(n,d)
 
 EX: 7.3 TAYLOR SERIES
 
-###Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+### Aim: 
+To python program to evaluate the series using recursion by collecting the x and n values from the user.
 ### ALGORITHM:
 STEP 1: Start.
 
@@ -96,7 +99,8 @@ print(series(x,n))
 
 EX: 7.4 Solve by recursion relation
 
-### Aim: To Write a Python Program to find whether a string is a palindrome or not using recursion
+### Aim: 
+To Write a Python Program to find whether a string is a palindrome or not using recursion
 
 ### Algorithm:
 STEP 1: Start.
@@ -137,7 +141,8 @@ else:
 
  EX: 7.5   Tail recursion
 
-### Aim: To Write a Python Program to convert a decimal number to a binary number using tail recursion.
+### Aim: 
+To Write a Python Program to convert a decimal number to a binary number using tail recursion.
 
 
 ### Algorithm:
