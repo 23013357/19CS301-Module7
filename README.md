@@ -133,5 +133,44 @@ else:
 ![image](https://github.com/user-attachments/assets/d30ef836-1901-448a-a146-dc905fdc3198)
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+
+ EX: 7.5   Tail recursion
+
+### Aim: To Write a Python Program to convert a decimal number to a binary number using tail recursion.
+
+
+### Algorithm:
+
+Start
+
+Input: Take a decimal number n as input.
+
+Base Case: If n == 0, return 0 (base case of the recursion).
+
+Recursive Step: If n != 0, calculate the binary digit as n % 2 (remainder when divided by 2).
+
+Recursion: Call the decimal_binary() function recursively with n // 2 (integer division by 2).
+
+Combine Result: Append the binary digit to the result of the recursive call using 10 * result (shifting the binary digits left).
+
+Output: Return the final binary representation of the number.
+
+End
+
+### Program:
+```
+def decimal_binary(n):
+    if n==0:
+        return 0
+    else:
+        return (n% 2)+10*decimal_binary(int(n/2))
+n=int(input())
+print(decimal_binary(n))
+```
+### Output:
+![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/m7n.png)
+
+### Result: Thus, the given program is implemented and executed successfully .
  
 
