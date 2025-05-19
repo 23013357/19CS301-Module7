@@ -169,7 +169,7 @@ n=int(input())
 print(decimal_binary(n))
 ```
 ### Output:
-![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/m7n.png)
+![image](https://github.com/23013357/19CS301-Module7/blob/main/MODUL%207.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
